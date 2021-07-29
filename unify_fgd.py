@@ -35,6 +35,7 @@ from srctools.filesys import RawFileSystem
 
 GAMES = [
     ('P2CE', 'Portal 2: Community Edition'),
+    ('REVOLUTION', 'Portal: Revolution'),
     ('MOMENTUM', 'Momentum Mod'),
 ]  # type: List[Tuple[str, str]]
 
@@ -46,6 +47,8 @@ GAME_NAME = dict(GAMES)
 FEATURES: Dict[str, Set[str]] = {
     'P2CE': {'HL2_ENTITIES', 'USE_VEHICLES', 'USE_PORTALS', 'USE_PAUSE', 'USE_NAV_MESH', 'USE_AI', 'USE_NEXTBOT', 'USE_SAVE_RESTORE',
              'USE_SLOWTIME', 'INST_IO', 'VSCRIPT', 'PROPCOMBINE', 'USE_TEAM', 'USE_MULTIPLAYER'},
+    'REVOLUTION': {'USE_PORTALS', 'USE_PAUSE', 'USE_SAVE_RESTORE',
+             'USE_SLOWTIME','INSTANCING', 'INST_IO', 'VSCRIPT'},
     'MOMENTUM': {'USE_PORTALS', 'INST_IO', 'PROPCOMBINE'},
 }
 

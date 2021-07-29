@@ -1,0 +1,26 @@
+"Games"
+{
+    "Portal: Revolution"
+    {
+        // NOTE: All of these paths are in relation to where hammer.exe is!!!
+        "GameDir"		"..\..\revolution"
+        "Hammer"
+        {
+            "GameData0"		"..\revolution.fgd"
+            "DefaultTextureScale"		"0.250000"
+            "DefaultLightmapScale"		"16"
+            "GameExe"		"revolution.exe"
+            "DefaultSolidEntity"		"func_detail"
+            "DefaultPointEntity"		"prop_static"
+            "BSP"		"vbsp.exe"
+            "Vis"		"vvis.exe"
+            "Light"		"vrad.exe"
+            "PostCompiler"		"postcompiler\postcompiler.exe"
+            "GameExeDir"		""
+            "MapDir"		"..\..\..\content\revolution\maps"
+            "BSPDir"		"..\..\revolution\maps"
+            "CordonTexture"		"tools/toolsskybox"
+            "MaterialExcludeCount"		"0"
+        }
+    }
+}
