@@ -1,6 +1,10 @@
 @PointClass base(BaseEntityPoint)
+<<<<<<< HEAD
 	appliesto(P2CE)
 = portalmp_gamerules: "Proxy entity for Portal 2 Gamerules. Appears nonfunctional."
+=======
+	appliesto(SINCE_P2CE) = portalmp_gamerules: "Proxy entity for Portal 2 Gamerules. Appears nonfunctional."
+>>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 
 	// Inputs

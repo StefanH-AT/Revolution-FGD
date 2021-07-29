@@ -1,7 +1,12 @@
 @PointClass base(BaseEntityPoint,  ResponseContext, ToggleDraw) 
+<<<<<<< HEAD
 	appliesto(P2CE) 
 	studioprop("models/props_bts/rocket.mdl")
 = rocket_turret_projectile: "The rocket the Rocket Sentry fires."
+=======
+	appliesto(SINCE_P2CE) 
+	studioprop("models/props_bts/rocket.mdl") = rocket_turret_projectile: "The rocket the Rocket Sentry fires."
+>>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	// Inputs
 	input RemovePaint(void) : "Cleans the rocket?"

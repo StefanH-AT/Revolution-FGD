@@ -1,7 +1,12 @@
 @PointClass base(BaseEntityPoint) 
+<<<<<<< HEAD
 	appliesto(P2CE) 
 	studioprop("models/props/futbol_dispenser.mdl")
 = prop_glass_futbol_spawner: "Spawns futbols. Will re-create a futbol when its created futbol breaks."
+=======
+	appliesto(SINCE_P2CE) 
+	studioprop("models/props/futbol_dispenser.mdl") = prop_glass_futbol_spawner: "Spawns futbols. Will re-create a futbol when its created futbol breaks."
+>>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	startwithfutbol(boolean) : "Start with Futbol" : 1 : "Set true if this spawner starts with a futbol in it. " +
 		"Set to false if this spawner's futbol will be manually placed in the map."

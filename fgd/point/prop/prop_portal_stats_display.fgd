@@ -1,7 +1,13 @@
 @PointClass base(BaseEntityAnimating) 
+<<<<<<< HEAD
 	appliesto(P2CE) 
 	studioprop("models/props/Round_elevator_body.mdl")
 = prop_portal_stats_display: "Portal Stats Display, for P1's challenge mode."
+=======
+	appliesto(SINCE_P2CE) 
+	studio("models/props/Round_elevator_body.mdl") 
+	studioprop("models/props/Round_elevator_body.mdl") = prop_portal_stats_display: "Portal Stats Display, for P1's challenge mode."
+>>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 
 	// Inputs

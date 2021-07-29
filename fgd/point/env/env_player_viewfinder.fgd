@@ -1,6 +1,10 @@
 @PointClass base(BaseEntityPoint) 
+<<<<<<< HEAD
 	appliesto(P2CE)
 = env_player_viewfinder: "When enabled, the viewfinder screen overlay will turn on, like when gesturing to cameras. Applies to both Coop players."
+=======
+	appliesto(SINCE_P2CE) = env_player_viewfinder: "When enabled, the viewfinder screen overlay will turn on, like when gesturing to cameras. Applies to both Coop players."
+>>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	// Inputs
 	input ShowViewFinder(void) : "Shows the view finder screen overlay."

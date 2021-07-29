@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 @PointClass base(prop_physics) 
 	appliesto(P2CE) 
+=======
+@PointClass
+	base(prop_physics) 
+	appliesto(SINCE_P2CE) 
+>>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	sphere(fademindist) 
 	sphere(fademaxdist) 
 	studioprop()

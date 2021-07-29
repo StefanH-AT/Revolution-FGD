@@ -1,6 +1,10 @@
 @SolidClass base(func_portal_detector) 
+<<<<<<< HEAD
 	appliesto(P2CE) 
 = func_portalled: "Fires outputs when the player teleports through a portal in its volume."
+=======
+	appliesto(SINCE_P2CE) = func_portalled: "Fires outputs when the player teleports through a portal in its volume."
+>>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	fireondeparture(boolean) : "Fire On Departure" : 1 : "Fire when the entity is entering this portal."
 	fireonarrival(boolean) : "Fire On Arrival" : 1 : "Fire when the entity is exiting this portal."

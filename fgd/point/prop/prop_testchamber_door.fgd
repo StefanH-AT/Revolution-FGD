@@ -1,6 +1,13 @@
 @PointClass base(BaseEntityAnimating)
+<<<<<<< HEAD
 	appliesto(P2CE)
 	studioprop() 
+=======
+	appliesto(SINCE_P2CE)
+	// Non-animating model, which prevents it continually opening 
+	// and fixes collision display.
+	studioprop("models/editor/prop_testchamber_door.mdl") 
+>>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	line(255 255 0, targetname, areaPortalWindow) 
 	line(255 255 0, targetname, lightingorigin) 
 	sphere(AreaPortalFadeStart) 

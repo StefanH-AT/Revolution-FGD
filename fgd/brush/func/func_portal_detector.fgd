@@ -1,6 +1,10 @@
 @SolidClass base(BaseEntityBrush, Origin) 
+<<<<<<< HEAD
 	appliesto(P2CE) 
 = func_portal_detector: "A region that fires an output if a portal is placed inside it."
+=======
+	appliesto(SINCE_P2CE) = func_portal_detector: "A region that fires an output if a portal is placed inside it."
+>>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	spawnflags(flags) : "spawnflags" =
 		[

@@ -1,7 +1,12 @@
 @PointClass base(BaseEntityAnimating) 
+<<<<<<< HEAD
 	appliesto(P2CE) 
 	studioprop("models/props/water_bottle/water_bottle.mdl")
 = item_paint_power_pickup: "Paint Ammo"
+=======
+	appliesto(SINCE_P2CE) 
+	studioprop("models/props/water_bottle/water_bottle.mdl") = item_paint_power_pickup: "Paint Ammo"
+>>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 		PaintType(choices) : "Paint Type" : 0 :
 		"The paint power of the pickup." =
