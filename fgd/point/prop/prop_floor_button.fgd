@@ -7,8 +7,11 @@
 	model(choices) : "Button model" : "models/props/portal_button.mdl" : "Choose the amount of damage for the button, or type in a custom model." =
 		[
 		"models/props/portal_button.mdl": "Clean"
-		"models/props/portal_button_damaged02.mdl": "Slightly Damaged"
-		"models/props/portal_button_damaged01.mdl": "Very Damaged"
+		"models/props/portal_button_damaged02.mdl": "Dirty Slightly Damaged"
+		"models/props/portal_button_damaged01.mdl": "Dirty Very Damaged"
+		"models/props/floor_button/portal_button_bts02.mdl": "BTS Slightly Damaged 1"
+		"models/props/floor_button/portal_button_bts02a.mdl": "BTS Slightly Damaged 2"
+		"models/props/floor_button/portal_button_bts01.mdl": "BTS Very Damaged"
 		]
 
 	// Outputs
