@@ -10,7 +10,7 @@
 	spawnflags(flags) : "spawnflags" =
 		[
 		1: "Not solid" : 0
-		2: "Reverse Direction" : 0
+		2: "Reverse Direction (Clockwise)" : 0
 		32: "Toggle" : 0
 		64: "X Axis" : 0
 		128: "Y Axis" : 0
