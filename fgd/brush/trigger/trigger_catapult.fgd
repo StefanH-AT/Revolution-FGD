@@ -1,5 +1,5 @@
 @SolidClass base(Trigger)
-	line(255 255 0, targetname, launchTarget) 
+	catapult()
 = trigger_catapult: "Catapult the player in a given direction at a given velocity."
 	[
 	playerspeed(float) : "Player Speed" : 450 : "Speed at which to launch the players (u/sec)"
