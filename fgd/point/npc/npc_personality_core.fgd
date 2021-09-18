@@ -34,7 +34,11 @@
 		2: "Orange Eye / NA"
 		3: "Purple Eye / NA"
 		]
-
+	flashlightcolor(choices) : "Flashlight" : "255 255 255 500" : "Flashlight Color" = 
+		[
+			"255 255 255 500": "White"
+			"240 150 150 500": "Red"
+		]
 
 	// Inputs
 	input EnableMotion(void) : "Enable physics motion/collision response."
