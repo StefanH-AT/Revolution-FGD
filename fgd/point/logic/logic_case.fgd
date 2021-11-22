@@ -30,6 +30,8 @@
 
 	// Inputs
 	input InValue(string) : "Compares the Input value to the case values, and fires the appropriate output, if any."
+	input InValueNoTest(string) : "Stores the input value to be tested later."
+	input Test(void) : "Compares the stored value to the case values, and fires the appropriate output, if any."
 	input PickRandom(void) : "Fires a random OnCase output with at least one connection."
 	input PickRandomShuffle(void) : "Fires a random OnCase output with at least one connection, with no repeats until all cases have been picked, at which point the shuffle starts over."
 
