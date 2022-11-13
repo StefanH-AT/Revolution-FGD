@@ -96,7 +96,7 @@ IF /I %game%==ALL (
   CALL :build_game_fgd momentum
   EXIT /B
 
-:build_revolution
+:build_fgd_revolution
   CALL :copy_hammer_files revolution
   CALL :build_game_fgd revolution
   EXIT /B
