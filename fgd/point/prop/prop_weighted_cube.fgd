@@ -72,6 +72,8 @@
 		"212 60 146 255" : "Pink"
 		"65 97 0 255" : "Dark Green"
 		]
+	SchrodingerSound(sound) : "Schrodinger Sound" : "" : "The sound (or music) to play when the Schrodinger cube is powered. Only applicable to Schrodinger cubes."
+
 
 	// Inputs
 	input EnablePortalFunnel(void) : "Enable portal funneling behavior."
