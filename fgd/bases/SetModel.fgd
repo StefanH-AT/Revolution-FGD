@@ -3,5 +3,6 @@
 	studioprop()
 = SetModel
 	[
+		linedivider_prop[!engine](string) readonly : "----------------------------------------------------------------------------------------------------------" : "" : "Prop"
 	model(studio) : "World Model" : : "The model to use for this entity."
 	]

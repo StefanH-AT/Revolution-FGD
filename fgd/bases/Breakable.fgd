@@ -3,6 +3,9 @@
 	sphere(exploderadius) 
 = _Breakable
 	[
+
+	linedivider_breakable[!engine](string) readonly : "----------------------------------------------------------------------------------------------------------" : "" : "Health & Damage"
+
 	explodedamage(float) : "Explosion Damage" : 0 : "If non-zero, when this entity breaks it will create an explosion that causes the specified amount of damage. See also 'Explosion Radius'."
 	exploderadius(float) : "Explosion Radius" : 0 : "If non-zero, when this entity breaks it will create an explosion with a radius of the specified amount. See also 'Explosion Damage'."
 	// Todo - damage vs magnitude

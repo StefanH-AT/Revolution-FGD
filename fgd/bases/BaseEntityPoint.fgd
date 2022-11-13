@@ -14,7 +14,7 @@
 	parentname[srctools](target_destination) : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
 	parent_attachment_point[srctools](string) : "Attachment Point" : : "If set, attach to this attachment point on the parent during spawn."
 
-	linedivider_vscript[+VSCRIPT, !engine](string) readonly : "-------------------------------------------------------------------------------------------------------" : ""
+	linedivider_vscript[+VSCRIPT, !engine](string) readonly : "-------------------------------------------------------------------------------------------------------" : "" : "VScript"
 
 	vscripts[VSCRIPT](scriptlist) : "Entity Scripts" : : "Name(s) of script files that are executed after all entities have spawned."
 	thinkfunction[VSCRIPT](string) : "Script think function" : : "Name of a function in this entity's script scope which will be called automatically."
@@ -22,8 +22,6 @@
 	vscript_init_code[+VSCRIPT, +srctools](string) : "Init Code" : : "This code will be executed after the Entity Scripts option. Backtick ( ` ) characters will be converted to quotes in-game for strings."
 	vscript_init_code2[+VSCRIPT, +srctools](string) : "Init Code 2" : : "This code will be the second line executed after the Entity Scripts option. Backtick ( ` ) characters will be converted to quotes in-game for strings. " +
 		"Additional Init Code keyvalues can be added with SmartEdit off."
-
-	linedivider_base[!engine](string) readonly : "----------------------------------------------------------------------------------------------------------" : ""
 
 	// Inputs
 	input Kill(void) : "Removes this entity from the world."

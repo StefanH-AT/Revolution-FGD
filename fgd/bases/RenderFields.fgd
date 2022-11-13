@@ -1,5 +1,8 @@
 @BaseClass = RenderFields
 	[
+		
+	linedivider_anim[!engine](string) readonly : "----------------------------------------------------------------------------------------------------------" : "" : "Rendering"
+
 	rendermode[engine](integer) : "Render Mode" : 0
 	rendermode(choices) : "Render Mode" : 0 : "Used to set a non-standard rendering mode on this entity. See also 'FX Amount' and 'FX Color'." +
 		"* Color & Texture = src*a+dest*(1-a)" +
