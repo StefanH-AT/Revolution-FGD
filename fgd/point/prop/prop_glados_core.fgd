@@ -1,11 +1,6 @@
 @PointClass base(BasePropPhysics)
-<<<<<<< HEAD
 	studioprop()
-	appliesto(P2CE)
-=======
-	studioprop("models/npcs/personality_sphere/personality_sphere.mdl")
 	appliesto(SINCE_P2CE)
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 = prop_glados_core: "The P1 personality cores for GlaDOS. Resemble little eyeballs with handles. " +
 	"These play lines and look around when near the player. "
 	[

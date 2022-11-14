@@ -1,10 +1,6 @@
 @SolidClass base(Trigger, RenderFields, Reflection) 
-<<<<<<< HEAD
-	appliesto(P2CE) 
+	appliesto(SINCE_P2CE) 
 = trigger_portal_cleanser: "A trigger volume that disolves any entities that touch it and fizzles active portals when the player touches it.|||An Aperture Science Material Emancipation Grid."
-=======
-	appliesto(SINCE_P2CE) = trigger_portal_cleanser: "A trigger volume that disolves any entities that touch it and fizzles active portals when the player touches it.|||An Aperture Science Material Emancipation Grid."
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	spawnflags(flags)  =
 		[

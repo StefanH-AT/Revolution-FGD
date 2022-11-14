@@ -1,12 +1,7 @@
 @PointClass base(BaseEntityPoint) 
-<<<<<<< HEAD
-	appliesto(P2CE) 
+	appliesto(SINCE_P2CE) 
 	sphere(radius)
 = info_target_personality_sphere: "Personality Sphere Info Target"
-=======
-	appliesto(SINCE_P2CE) 
-	sphere(radius) = info_target_personality_sphere: "Personality Sphere Info Target"
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	sphereline(string) : "Sphere Line" : : "Line sphere will speak when we are looking at this target."
 	radius(float) : "Radius" : 16 : "Radius of this object. "

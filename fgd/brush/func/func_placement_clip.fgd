@@ -1,9 +1,5 @@
 @SolidClass base(Trigger) 
-<<<<<<< HEAD
-	appliesto(P2CE) 
+	appliesto(SINCE_P2CE) 
 = func_placement_clip: "Specifies a region where things cannot be built."
-=======
-	appliesto(SINCE_P2CE) = func_placement_clip: "Specifies a region where things cannot be built."
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	]

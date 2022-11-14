@@ -1,11 +1,6 @@
 @PointClass base(BaseEntityPoint) 
-<<<<<<< HEAD
-	appliesto(P2CE) 
+	appliesto(SINCE_P2CE) 
 	studioprop("models/editor/vgui_arrows.mdl")
 = vgui_level_placard_display: "Pre-level display placard entity."
-=======
-	appliesto(SINCE_P2CE) 
-	studioprop("models/editor/vgui_arrows.mdl") = vgui_level_placard_display: "Pre-level display placard entity."
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	]

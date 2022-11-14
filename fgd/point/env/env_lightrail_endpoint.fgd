@@ -1,10 +1,6 @@
 @PointClass base(BaseEntityPoint)
-<<<<<<< HEAD
-	appliesto(P2CE)
+	appliesto(SINCE_P2CE)
 = env_lightrail_endpoint: "Special effects for the endpoints of the lightrail.|||Special effects for the endpoints of the Unstationary Scaffold."
-=======
-	appliesto(SINCE_P2CE) = env_lightrail_endpoint: "Special effects for the endpoints of the lightrail.|||Special effects for the endpoints of the Unstationary Scaffold."
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	spawnflags(flags) : "spawnflags" =
 		[

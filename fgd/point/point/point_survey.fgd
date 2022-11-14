@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 @PointClass base(BaseEntityPoint)
-	appliesto(P2CE) 
+	appliesto(SINCE_P2CE) 
 = point_survey : "Displays a survey to the player."
 	[
-=======
-@PointClass base(BaseEntityPoint) appliesto(SINCE_P2CE) = point_survey : "Displays a survey to the player."
-[
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	surveyname(string) : "Survey Script Name" : "end_puzzle_survey" : "Name of a survey keyvalues file, from the 'scripts/surveys' folder."
 
 	// Inputs

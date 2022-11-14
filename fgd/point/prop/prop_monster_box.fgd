@@ -1,12 +1,7 @@
 @PointClass base(BaseEntityPhysics) 
-<<<<<<< HEAD
-	appliesto(P2CE)
+	appliesto(SINCE_P2CE)
 	studioprop()
 = prop_monster_box: "FrankenCubes, they walk about when oriented correctly but otherwise behave like normal Storage Cubes."
-=======
-	appliesto(SINCE_P2CE)
-	studioprop() = prop_monster_box: "FrankenCubes, they walk about when oriented correctly but otherwise behave like normal Storage Cubes."
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	startasbox(boolean) : "Start As Box" : 0 : "Start the FrankenTurret in cube form."
 	boxswitchspeed(float) : "Box Switch Speed" : 400 : "Speed to force switch to a box."

@@ -1,12 +1,7 @@
 @PointClass base(BaseEntityAnimating) 
-<<<<<<< HEAD
-	appliesto(P2CE)
+	appliesto(SINCE_P2CE)
 	studioprop()
 = env_portal_laser: " A Thermal Discouragement Beam that will move through portals, redirect using Redirection Cubes and reflect off of Reflection Gel."
-=======
-	appliesto(SINCE_P2CE)
-	studioprop() = env_portal_laser: " A Thermal Discouragement Beam that will move through portals, redirect using Redirection Cubes and reflect off of Reflection Gel."
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	noplacementhelper(boolean) : "No placement helper" : 0 : "Don't automatically create a portal placement helper at the end of the laser."
 	

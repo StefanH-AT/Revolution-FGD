@@ -1,12 +1,7 @@
 @PointClass base(BasePropPhysics) 
-<<<<<<< HEAD
-	appliesto(P2CE) 
+	appliesto(SINCE_P2CE) 
 	studio("models/effects/combineball.mdl")
 = prop_energy_ball: "Aperture Science High Energy Pellet. Bounces off surfaces, travels through portals and kills players on contact. After a time period it will explode and be respawned."
-=======
-	appliesto(SINCE_P2CE) 
-	studio("models/effects/combineball.mdl") = prop_energy_ball: "Aperture Science High Energy Pellet. Bounces off surfaces, travels through portals and kills players on contact. After a time period it will explode and be respawned."
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 
 	// Inputs

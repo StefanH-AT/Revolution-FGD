@@ -1,11 +1,6 @@
 @PointClass base(BaseEntityPoint)
-<<<<<<< HEAD
-	appliesto(P2CE) 
+	appliesto(SINCE_P2CE) 
 	iconsprite("editor/info_landmark")
 = info_landmark_entry: "Entry landmark"
-=======
-	appliesto(SINCE_P2CE) 
-	iconsprite("editor/info_landmark") = info_landmark_entry: "Entry landmark"
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	]

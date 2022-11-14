@@ -1,11 +1,7 @@
 @SolidClass base(BaseEntityBrush, EnableDisable) 
-<<<<<<< HEAD
-	appliesto(P2CE) 
+	appliesto(SINCE_P2CE) 
 = func_portal_orientation: "Adjusts a portal's rotation to match a specified angle. The 'front' of the portal points in the specified direction. " +
 	"In Portal 2, portals are only reoriented when the entity is sent an Enable input, so this will need to be done every time a portal is placed."
-=======
-	appliesto(SINCE_P2CE) = func_portal_orientation: "Adjusts a portal's rotation to match a specified angle. The 'Bottom' of the portal points in the specified direction."
->>>>>>> c1631c4e (fix: Rename all P2CE to SINCE_P2CE)
 	[
 	anglestoface(angle) : "Angles to face" : "0 0 0" : "The angles to rotate portals to. " + 
 	"An easy way to figure out what to set this to is to place a prop_portal, rotate it to the desired orientation, then look at its angles."
