@@ -1,10 +1,22 @@
-@PointClass base(BaseEntityAnimating, SRCIndicator, SetSkin) 
+@PointClass base(BaseEntityAnimating, SRCIndicator) 
 	appliesto(SINCE_P2CE)
 	studioprop() 
 = prop_laser_relay: "Discouragement Beam Relay that detects lasers, whilst allowing it to pass through and hit other Relays. " +
 		"The entity will fire outputs when struck and unstruck."
 	[
+	skintype(choices) : "Skin Type" : 0 : "Set the type of catcher to use." =
+		[
+		0: "Clean"
+		1: "Rusted"
+		]
+
 	model(studio) : "Laser Relay Model" : "models/props/laser_receptacle.mdl" : "Choose a custom model for the relay."
+	skin[engine](integer) : "Skin" : 0
+	skin(choices) : "[H] Skin Type" : 0 : "The skin to show in Hammer." =
+		[
+		0: "Clean  - Off"
+		1: "Rusted  - On"
+		]
 
 	uselaserfilter(bool) : "Use Laser Filter" : 0 : "If enabled, this relay can only be activated by the specified laser color."
 	
