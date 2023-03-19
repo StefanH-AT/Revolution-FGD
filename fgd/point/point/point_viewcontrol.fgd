@@ -27,6 +27,7 @@
 		32: "Make Player non-solid" : 0
 		64: "Interruptable by Player" : 0
 		128: "Set Fov" : 0
+		256: "Freelook" : 0
 		]
 
 	speed(float) : "Initial Speed" : "0" : "The starting speed that the camera moves at, if it's on a path track."
