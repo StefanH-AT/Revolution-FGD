@@ -42,5 +42,5 @@
 	input StartFogTransition(void) : "Start fog transition."
 	input SetMaxDensityLerpTo(float) : "Set max density lerp to."
 	input SetZoomFogScale(void) : "Set the value the fog will scale the default value by when players are zoomed in (scoped)."
-	input ActivateAllPlayers[+USE_MULTIPLAYER](void) : "Activates this fog controller for all players"
+	input ActivateAllPlayers(void) : "Activates this fog controller for all players"
 	]
