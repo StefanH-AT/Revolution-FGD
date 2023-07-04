@@ -44,4 +44,8 @@
 	input SetPattern(string) : "Set a custom pattern of light brightness for this light. Pattern format is a string of characters, where 'a' is total darkness, 'z' fully bright. i.e. 'aaggnnttzz' would be a steppy fade in from dark to light."
 	input FadeToPattern(string) : "Fades from first value in old pattern, to first value in the new given pattern. Pattern format is a string of characters, where 'a' is total darkness, 'z' fully bright. i.e. 'aaggnnttzz' would be a steppy fade in from dark to light."
 	input SetFadeInterval(float) : "Sets the fadetickinterval."
+	input SetFadeSteps(float) : "Sets the amount of steps to use for fading."
+	input FadeOn(float) : "Fades the light on using patterns. (Shortcut for FadeToPattern with z param). Parameter sets fade tick interval"
+	input FadeOff(float) : "Fades the light off using patterns. (Shortcut for FadeToPattern with a param). Parameter sets fade tick interval"
+	input FadeToggles(float) : "Fades the light on or  off using patterns depending on the current fade pattern (a or z)."
 	]
