@@ -30,6 +30,9 @@
 		1: "Blue"
 		2: "Orange"
 		]
+	
+	model(studio) : "World Model" : "models/weapons/w_portalgun.mdl" : "The model shown for the portalgun entity and in the player's hand in third-person view."
+	viewmodel(studio) : "View Model" : "models/weapons/v_portalgun.mdl" : "The model shown in the player's first-person view."
 
 	// Inputs
 	input ChargePortal1(void) : "Does charge up effect for mounted portalgun. Missing particles and sounds."
