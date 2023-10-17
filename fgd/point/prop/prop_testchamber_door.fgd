@@ -15,8 +15,11 @@
 	open(boolean) : "Start Open" : 0 : "If set, the door starts in the open state."
 	locked(boolean) : "Start Locked" : 0 : "If set, the door starts locked and can no longer change open or closed state."
 
-	skin(integer) : "Skin" : 0 : "Skin to use in game"
-	model(studio) : "Model" : "models/props/portal_door_combined.mdl" : "Model to use in-game"
+	IsNewModel(boolean) : "Use New Model" : 1 : "Use the new model for Portal: Revolution"
+	IsDirty(boolean) : "Dirty" : 0 : "Whether this is a dirty door. Requires new model!!"
+	separator50(string) readonly : "======== Old ========" : : "=================="
+	skin(integer) : "Skin" : 0 : "Skin to use in game."
+	model(studio) : "Model" : "models/props/portal_door_combined_new.mdl" : "Model to use in-game"
 
 	// Inputs
 	input Open(void) : "Open the door and cause the areaportal to return to fading."
