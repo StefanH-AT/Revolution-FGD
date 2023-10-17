@@ -72,6 +72,7 @@
 		]
 	shadowdepthnocache[engine](integer): "": 0
 	disableflashlight(boolean) : "Disable flashlight" : 0 : "Used to disable flashlight (env_projectedtexture) lighting and shadows on this entity."
+	DrawInCubemaps(boolean) : "Draw in Cubemaps" : 0 : "Whether or not this entity should be drawn in cubemaps. Moving entities like physics props or doors shouldn't be drawn into cubemaps."
 
 	// Inputs
 	input Skin(integer) : "Changes the model skin to the specified number."
