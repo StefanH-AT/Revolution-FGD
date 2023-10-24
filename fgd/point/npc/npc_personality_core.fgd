@@ -32,12 +32,15 @@
 		2: "Skin 2"
 		3: "Skin 3"
 		]
-	flashlightcolor(choices) : "Flashlight" : "255 255 255 500" : "Flashlight Color" = 
+	flashlightcolor(choices) : "Flashlight Color" : "255 255 255 500" : "Color of the flashlight" = 
 		[
 			"255 255 255 500": "White"
 			"240 150 150 500": "Red"
 			"150 150 220 500": "Blue"
 		]
+	flashlightfov(float) : "Flashlight FOV" : 90 : "Field of view of the flashlight"
+	flashlightfarz(float) : "Flashlight FarZ" : 750 : "FarZ (Distance) of the flashlight"
+	flashlightbrightness(float) : "Flashlight Brightness" : 1 : "Brightness of the flashlight"
 
 	// Inputs
 	input EnableMotion(void) : "Enable physics motion/collision response."
@@ -53,8 +56,11 @@
 	input SetIdleSequence(string) : "Set a sequence to use as an idle sequence."
 	input ClearIdleSequence(void) : "Return to the default idle animation."
 	input Explode(void) : "Explode the sphere, triggering an explosion effect and some gibs."
+	input SetFlashlightFOV(float) : "Changes the field of view of the flashlight."
+	input SetFlashlightBrightness(float) : "Changes the brightness of the flashlight."
 
 	// Outputs
 	output OnPlayerPickup(void) : "Fired whenever the player picks up the core."
+	output OnPlayerDrop(void) : "Fired whenever the player drops the core."
 	output OnPlayerDrop(void) : "Fired whenever the player drops the core."
 	]
