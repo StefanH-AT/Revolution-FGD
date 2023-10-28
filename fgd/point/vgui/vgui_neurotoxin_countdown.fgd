@@ -10,4 +10,5 @@
 	// Inputs
 	input Enable(void) : "Start/Show countdown."
 	input Disable(void) : "Hide coundown, will not reset."
+	input SetTime(float) : "Set time of countdown"
 	]
