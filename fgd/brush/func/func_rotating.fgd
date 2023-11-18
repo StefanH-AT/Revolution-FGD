@@ -32,7 +32,7 @@
 
 
 	// Inputs
-	input SetSpeed(integer) : "Set the speed as a ratio of the specified Max Rotation Speed, where 0 is stopped and 1 is the Max Rotation Speed.."
+	input SetSpeed(float) : "Set the speed as a ratio of the specified Max Rotation Speed, where 0 is stopped and 1 is the Max Rotation Speed.."
 	input Start(void) : "Start the rotator rotating."
 	input Stop(void) : "Stop the rotator from rotating."
 	input StopAtStartPos(void) : "Stop the rotator from rotating when it gets around to the start position again (on its rotation axis)."
